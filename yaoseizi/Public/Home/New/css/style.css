@@ -1,0 +1,1460 @@
+@charset "UTF-8";
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+figure,
+main { /* 1 */
+    display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+    margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+    background-color: transparent; /* 1 */
+    -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+    font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+    background-color: #ff0;
+    color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+    display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+    border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+    text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    display: inline-block; /* 1 */
+    vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+details, /* 1 */
+menu {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+    display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+    display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+    display: none;
+}
+
+
+/*! reset.css */
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0
+}
+
+ol, ul {
+    list-style: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+input:required {
+    border: none;
+    box-shadow: none
+}
+
+input:invalid, input:valid {
+    background-color: transparent;
+    box-shadow: none
+}
+
+:focus {
+    -moz-outline-style: none;
+    outline: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.hide {
+    display: none !important
+}
+
+.show {
+    display: block !important
+}
+a {
+    text-decoration: none;
+}
+
+/*======= INDEX ============*/
+
+html {
+    font-family: "微软雅黑", Microsoft YaHei, Helvetica Neue, Helvetica, Roboto, STHeiTi, Arial, sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+/*body {*/
+    /*position: relative;*/
+    /*background-color: #f0f0f0;*/
+/*}*/
+ul {
+    list-style: none;
+}
+.content {
+    position: relative;
+    width: 100%;
+    /*height: 100%;*/
+}
+/*.content-wrap {*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*padding-bottom: 1rem;*/
+/*}*/
+.content-wrap {
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+    /*top: 0;*/
+     padding-bottom: 1rem;
+    /*bottom: 1rem;*/
+}
+/*.index-content-wrap {*/
+    /*background-image: -webkit-radial-gradient(2.5rem  at 50% 3.5rem, #95b242, #219d47);*/
+    /*background-image:    -moz-radial-gradient(2.5rem  at 50% 3.5rem, #95b242, #219d47);*/
+    /*background-image:     -ms-radial-gradient(2.5rem  at 50% 3.5rem, #95b242, #219d47);*/
+    /*background-image:      -o-radial-gradient(2.5rem  at 50% 3.5rem, #95b242, #219d47);*/
+    /*background-image:         radial-gradient(2.5rem  at 50% 3.5rem, #95b242, #219d47);*/
+/*}*/
+
+.index-content {
+    padding-bottom: 0.3rem;
+}
+.header {
+    width: 100%;
+    height: 1.1rem;
+    padding: 0.15rem 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d4d4d4;
+    /*background-color: #419638;*/
+}
+.header >li {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #fff;
+}
+.header >li + li {
+    border-left: 1px solid #d5d5d5;
+}
+.header >li p {
+    line-height: 0.4rem;
+}
+.fs-1 {
+    font-size:0.24rem;
+    color: #f2de54;
+}
+
+
+
+/*.function-zone {*/
+    /*padding: 0.4rem 0.3rem;*/
+/*}*/
+/*.function-zone >li {*/
+    /*width: 1.76rem;*/
+    /*height: 0.7rem;*/
+    /*font-size: 0.24rem;*/
+    /*color: #fff;*/
+    /*text-align: center;*/
+    /*line-height: 0.7rem;*/
+    /*background-color: #f55957;*/
+    /*border-radius: 0.35rem;*/
+/*}*/
+/*.function-zone >li >a {*/
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*color: #ffffff;*/
+/*}*/
+.lottery-zone {
+    text-align: center;
+    position: relative;
+}
+
+.lottery-result-img {
+    height: 1.73rem;
+    position: relative;
+}
+.lottery-result-img img {
+    position: absolute;
+    width: 1.68rem;
+    height: 1.73rem;
+    left: 50%;
+    margin-left: -0.84rem;
+}
+/*.tips {*/
+    /*margin-top: 0.15rem;*/
+    /*position: relative;*/
+/*}*/
+/*.tips p {*/
+    /*font-size: 0.24rem;*/
+    /*color: #fff;*/
+    /*line-height: 0.6rem;*/
+/*}*/
+/*.recharge {*/
+    /*width: 1.4rem;*/
+    /*height: 0.6rem;*/
+    /*padding: 0 0.2rem;*/
+    /*font-size: 0.24rem;*/
+    /*line-height: 0.6rem;*/
+    /*color: #fff;*/
+    /*border-radius: 0.1rem;*/
+    /*background-color: #78ac43;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 5.1rem;*/
+/*}*/
+/*.scrollbar {*/
+    /*width: 100%;*/
+    /*height: 1.08rem;*/
+    /*padding: 0.4rem 0;*/
+    /*box-sizing: border-box;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+/*}*/
+/*.scrollbar p {*/
+    /*font-size: 0.24rem;*/
+    /*line-height: 0.24rem;*/
+    /*white-space: nowrap;*/
+    /*color: #fff;*/
+    /*position: absolute;*/
+/*}*/
+
+/*.bet-zone {*/
+    /*padding: 0 0.3rem;*/
+/*}*/
+/*.bet >li {*/
+    /*float: left;*/
+    /*width: 1.65rem;*/
+    /*height: 1.65rem;*/
+
+    /*text-align: center;*/
+/*}*/
+/*.bet li a {*/
+    /*display: block;*/
+    /*line-height: 1;*/
+    /*color: #333;*/
+/*}*/
+/*.bet li a span {*/
+    /*font-size: 0.32rem;*/
+    /*color: #f45a57;*/
+/*}*/
+/*.bet-himlop li {*/
+    /*width: 2.4rem;*/
+    /*height: 2.4rem;*/
+    /*background: url("../images/bet-himlop-bg.png") center no-repeat;*/
+    /*background-size: 100% 100%;*/
+    /*margin: 0 0.5rem;*/
+/*}*/
+/*.bet-himlop li a {*/
+    /*font-size: 0.68rem;*/
+    /*padding-top: 0.48rem;*/
+/*}*/
+/*.bet-point {*/
+    /*margin-top: 0.4rem;*/
+/*}*/
+/*.bet-point li {*/
+    /*width: 1.09rem;*/
+    /*height: 1.65rem;*/
+    /*background: url("../images/bet-himlop-bg.png") center no-repeat;*/
+    /*background-size: 100% 100%;*/
+    /*!*margin: 0 0.5rem;*!*/
+/*}*/
+/*.bet-point li +li {*/
+    /*margin-left: 0.06rem;*/
+/*}*/
+
+
+/*.bet-point li a {*/
+    /*font-size: 0.44rem;*/
+    /*padding-top: 0.36rem;*/
+/*}*/
+
+
+/* 底部导航栏
+   ====================================================
+*/
+.footer {
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #d5d5d5;
+    background-color: #fff;
+}
+.nav-bottom >li {
+    float: left;
+    width: 33.3333%;
+    height: 100%;
+    text-align: center;
+}
+.nav-bottom >li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.14rem;
+}
+.nav-pic {
+    display: inline-block;
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.nav-pic-left {
+    background: url(../images/nav-pic-l.png) center no-repeat;
+    background-size: 0.38rem 0.38rem;
+}
+.nav-pic-center {
+    background: url(../images/nav-pic-c.png) center no-repeat;
+    background-size: 0.38rem 0.38rem;
+}
+.nav-pic-right {
+    background: url(../images/nav-pic-r.png) center no-repeat;
+    background-size: 0.38rem 0.38rem;
+}
+.nav-bottom >li >a >h3 {
+    font-size: 0.24rem;
+    color: #b9b9b9;
+}
+.nav-bottom >li.active .nav-pic-left {
+    background: url(../images/nav-pic-l-act.png) center no-repeat;
+    background-size: 0.38rem 0.38rem;
+}
+.nav-bottom >li.active .nav-pic-center {
+    background: url(../images/nav-pic-c-act.png) center no-repeat;
+    background-size: 0.38rem 0.38rem;
+}
+.nav-bottom >li.active .nav-pic-right {
+    background: url(../images/nav-pic-r-act.png) center no-repeat;
+    background-size: 0.38rem 0.38rem;
+}
+.nav-bottom >li.active >a >h3 {
+    color: #f35c58;
+}
+/* 弹窗
+   =============================================================
+*/
+.popup {
+    display: none;
+}
+.popup-bg {
+    _position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+}
+/*摇奖结果 & 提示 弹窗*/
+.popup-wrap {
+    width: 5.4rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+    margin-left: -2.7rem;
+    z-index:99999;
+}
+.popup-tittle {
+    height: 0.9rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #2d2d2d;
+    line-height: 0.9rem;
+    background-color: #f8f8f8;
+    position: relative;
+}
+.popup-close {
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url(../images/close-pic.png) left center no-repeat;
+    background-size: 0.25rem 0.25rem;
+    position: absolute;
+    top: 0.325rem;
+    right: 0.35rem;
+    cursor: pointer;
+}
+.popup-container {
+    background-color: #fff;
+    border-top: 1px solid #d5d5d5;;
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+.popup-container p:first-child {
+    margin-top: 0.5rem;
+}
+.popup-container p {
+    text-align: center;
+    font-size: 0.28rem;
+    line-height: 0.5rem;
+    color: #363636;
+}
+.popup-close-btn {
+    width: 1.30rem;
+    height: 0.58rem;
+    background-color: #2f8ff1;
+    color: #ffffff;
+    line-height: 0.58rem;
+    text-align: center;
+    font-size: 0.3rem;
+    margin-top: 0.45rem;
+    margin-left: 2.05rem;
+    -webkit-border-radius: 0.05rem;
+    -moz-border-radius: 0.05rem;
+    border-radius: 0.05rem;
+}
+/* 充值 */
+
+/* 07.04 + */
+.recharge-popup-wrapper {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -3.85rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    height: 5.5rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.recharge-amounts {
+    position: relative;
+    padding: 0 0.3rem;
+
+}
+.recharge-amount-list {
+    width: 100%;
+    font-size: 0;
+}
+.recharge-amount-list li {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    width: 33.333333%;
+    height: 33.333333%;
+    text-align: center;
+}
+.recharge-amount-list li a {
+    display: inline-block;
+    width: 1.95rem;
+    height: 1.95rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.recharge-amount-20 a {
+    background: url("../images/chouma_20.png") center no-repeat;
+    background-size: 1.95rem 1.95rem;
+}
+.recharge-amount-50 a {
+    background: url("../images/chouma_50.png") center no-repeat;
+    background-size: 1.95rem 1.95rem;
+}
+.recharge-amount-100 a {
+    background: url("../images/chouma_100.png") center no-repeat;
+    background-size: 1.95rem 1.95rem;
+}
+.recharge-amount-200 a {
+    background: url("../images/chouma_200.png") center no-repeat;
+    background-size: 1.95rem 1.95rem;
+}
+.recharge-amount-500 a {
+    background: url("../images/chouma_500.png") center no-repeat;
+    background-size: 1.95rem 1.95rem;
+}
+.recharge-amount-1000 a {
+    background: url("../images/chouma_1000.png") center no-repeat;
+    background-size: 1.95rem 1.95rem;
+}
+.recharge-popup p {
+    font-size: 0.3rem;
+    /*text-align: center; */ /* 07.04 - */
+    padding-left: 1.5rem; /* 07.04 + */
+    color: #ffffff;
+    line-height: 0.4rem;
+}
+
+.bet-balance{
+    margin-top: 0.3rem;
+    height: 0.4rem;
+    /*background: url("../images/icon-1.png") 26% 50% no-repeat; !* 07.04 - *!*/
+    background: url("../images/icon-1.png") 0.9rem 50% no-repeat; /* 07.04 + */
+    background-size: 0.4rem 0.4rem;
+}
+.recharge-popup-wrapper .button-out {
+    position: absolute;
+    right: 0.9rem;
+    top: 5rem;
+    width: 1.6rem;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #24a51d;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.recharge-popup .bet-balance {
+    margin-top: 0.6rem;
+}
+
+/* 下注弹窗 */
+
+.bet-popup-wrapper {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 4.9rem;
+    padding: 0.6rem 0;
+    margin-top: -4rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.bet-amounts {
+    padding: 0 0.3rem;
+}
+.bet-amount-list {
+    width: 100%;
+    font-size: 0;
+}
+.bet-amount-list li {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+}
+.bet-amount-list li a {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.bet-amount-2 a {
+    background: url("../images/chouma_2.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-5 a {
+    background: url("../images/chouma_5.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-10 a {
+    background: url("../images/chouma_10.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-20 a {
+    background: url("../images/chouma_20.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-50 a {
+    background: url("../images/chouma_50.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-100 a {
+    background: url("../images/chouma_100.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-200 a {
+    background: url("../images/chouma_200.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-amount-500 a {
+    background: url("../images/chouma_500.png") center no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.bet-popup p {
+    font-size: 0.3rem;
+    /*text-align: center; */ /* 07.04 - */
+    padding-left: 1.5rem; /* 07.04 + */
+    color: #ffffff;
+    line-height: 0.4rem;
+}
+.bet-active {
+    margin-top: 0.3rem;
+}
+.bet-popup-wrapper .button-out {
+    position: absolute;
+    right: 0.9rem;
+    top: 4.2rem;
+    width: 1.6rem;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #24a51d;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+
+/*游戏说明弹窗*/
+.lottery-explain-container {
+    width: 6.25rem;
+    padding: 0.2rem 0.25rem;
+    background: url("../images/explain-bg.jpg") no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -3.375rem;
+    /*transform: translateY(-50%);*/
+}
+.lottery-explain-container h3 {
+    font-size: 0.43rem;
+    font-weight: bold;
+    color: #733525;
+
+}
+.lottery-explain-container p {
+    font-size: 0.28rem;
+    color: #232323;
+    line-height: 0.58rem;
+}
+p.warning {
+    color: red;
+    text-align: center;
+}
+
+/* 分享页面
+
+*/
+
+.share-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    /*background: url("../images/share-img.png") no-repeat;*/
+    /*background-size: 100% 100%;*/
+}
+.share-content img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*  个人中心
+ ===========================================*/
+body.personalCenter {
+    background-color: #f0f0f0;
+}
+.personalCenter-content {
+    padding-bottom: 0.3rem;
+}
+.personal-info {
+    width: 100%;
+    height: 3.6rem;
+    text-align: center;
+    background: #249f49;
+    font-size: 0.28rem;
+    color: #ffffff;
+    position: relative;
+}
+.personal-info {
+
+}
+.heads {
+    padding-top: 0.6rem;
+
+}
+.heads img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.nickname {
+    margin-top: 0.1rem;
+}
+.personal-id {
+    margin-top: 0.3rem;
+}
+
+/*.personal-nav-wrap {*/
+    /*width: 100%;*/
+    /*!*height: 100%;*!*/
+    /*background-color: #f0f0f0;*/
+    /*position: absolute;*/
+    /*top: 3.6rem;*/
+    /*bottom: 0;*/
+
+/*}*/
+.personal-nav {
+
+    position: relative;
+}
+.personal-nav >li {
+    background-color: #fff;
+    padding: 0 0.3rem;
+
+}
+.personal-nav >li >a {
+    display: inline-block;
+    width: 100%;
+    height: 0.96rem;
+    font-size: 0.28rem;
+    color: #333;
+    line-height: 0.96rem;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    position: relative;
+}
+.personal-nav >li >a:nth-child(1) >span {
+    display: inline-block;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    padding-left: 0.71rem;
+}
+.personal-nav >li >a >i {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.36rem;
+    background: url("../images/icon-8.png") center no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    position: absolute;
+    top: 0.3rem;
+    right: 0;
+}
+.personal-nav li a.draw-money {
+    width: 1.68rem;
+    height: 0.66rem;
+    text-align: center;
+    line-height: 0.66rem;
+    color: #ffffff;
+    background-color: #249f49;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 0.15rem;
+    right: 0.3rem;
+}
+.personal-balance {
+    height: 0.96rem;
+    line-height: 0.96rem;
+    margin-bottom: 0.3rem;
+}
+
+.personal-balance >div {
+    display: inline-block;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    padding-left: 0.71rem;
+    background: url("../images/icon-3.png") left center no-repeat;
+    background-size: 0.46rem 0.46rem;
+}
+.account-balance {
+    color: #f65959;
+}
+.personal-betting-record span {
+    background: url("../images/icon-5.png") left center no-repeat;
+    background-size: 0.46rem 0.46rem;
+}
+.personal-draw-money-record span {
+    background: url("../images/icon-4.png") left center no-repeat;
+    background-size: 0.46rem 0.46rem;
+}
+.personal-lottery-record span {
+    background: url("../images/icon-6.png") left center no-repeat;
+    background-size: 0.46rem 0.46rem;
+}
+.personal-commission-record span {
+    background: url("../images/icon-2.png") left center no-repeat;
+    background-size: 0.46rem 0.46rem;
+}
+.personal-contact-support span {
+    background: url("../images/icon-7.png") left center no-repeat;
+    background-size: 0.46rem 0.46rem;
+}
+
+/* 投注记录
+ =============================================================
+*/
+
+
+/* 公共record
+   ================================
+*/
+.record {
+    padding: 0.3rem;
+}
+.record li {
+    margin-top: 0.3rem;
+    border: 1px solid #d5d5d5;
+    border-radius: 0.1rem;
+}
+.record li:nth-child(1) {
+    margin: 0;
+}
+.record-content-wrap {
+    height: 100%;
+    padding: 0.3rem;
+    border-left: 0.07rem solid #249f49;
+    border-top: 0;
+    border-radius: 0.07rem;
+}
+.record-content {
+    width: 100%;
+    color: #333;
+    position: relative;
+}
+.record-content >div {
+    font-size: 0.28rem;
+    font-weight: bold;
+    width: 100%;
+    display: table;
+}
+.record-content >div +div {
+    font-size: 0.24rem;
+    font-weight: normal;
+    padding-top: 0.3rem;
+}
+.record-content >div >p {
+    display: table-cell;
+    width: 50%;
+}
+.record-content >div >p + p {
+    text-align: right;
+}
+
+/* 提现记录
+   =============================
+*/
+.draw-money-record.record .record-content >div {
+    font-size: 0.24rem;
+    font-weight: normal;
+}
+/* 历史开奖记录
+   =============================
+*/
+.lottery-record.record .record-content >div +div {
+    font-size: 0.16rem;
+}
+.lottery-record.record .lottery-result {
+    position: absolute;
+    top: 0.32rem;
+    right: 0;
+    /*display: inline-block;*/
+    font-size: 0.24rem;
+}
+/* 佣金记录
+   =============================
+*/
+.master-apprentice {
+    margin: 0.3rem 0.75rem 0;
+    padding: 0 0.1rem;
+    border: 1px solid #d5d5d5;
+    border-radius: 0.1rem;
+    font-size: 0.24rem;
+    color: #333;
+}
+.master-apprentice table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.master-apprentice table th {
+    width: 100%;
+    height: 0.84rem;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+}
+.master-apprentice table td {
+    width: 33.333%;
+    height: 0.6rem;
+    text-align: center;
+}
+.record-none {
+    text-align: center;
+    padding-top: 0.8rem;
+    font-size: 0.24rem;
+    color: #333;
+
+}
+/* 客服帮助
+   ==================================
+*/
+
+.qrcode {
+    width: 100%;
+    padding-top: 0.4rem;
+}
+.qrcode img {
+    display: block;
+    width: 6.72rem;
+    height: 6.72rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.salutatory p {
+    font-size: 0.28rem;
+    color: #333;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.salutatory p:nth-child(1) {
+    font-size: 0.24rem;
+}
+
+/* S 05.19*/
+em {
+    font-style: normal;
+}
+
+.index {
+    background: url("../images/index-bg.png") center -0.4rem no-repeat;
+    background-size: 100% ;
+}
+.scrollbar {
+    width: 100%;
+    height: 0.68rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrollbar p {
+    font-size: 0.24rem;
+    line-height: 0.68rem;
+    white-space: nowrap;
+    color: #fff;
+    position: absolute;
+}
+.function-zone {
+    padding: 0 0.3rem 0.5rem;
+}
+.history-record a {
+    height: 0.75rem;
+    width: 0.78rem;
+    display: inline-block;
+    background: url("../images/money.jpg") center no-repeat;
+    background-size: 100% 100%;
+}
+.lottery-explain {
+    width: 1.84rem;
+    height: 0.78rem;
+    display: inline-block;
+    background: url("../images/explain.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.tips {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.15rem;
+    margin-top: 0.25rem;
+    border-radius: 0.2rem;
+}
+.tips p {
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.6rem;
+}
+.recharge {
+    width: 1.48rem;
+    height: 0.68rem;
+    background: url("../images/recharge.png") center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 4.8rem;
+}
+.bet-zone {
+    margin-top: 1.8rem;
+    padding: 0 0.3rem;
+    font-size: 0;
+}
+.bet >li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.bet >li +li {
+    margin-left: 0.33rem;
+}
+.bet-himlop {
+    width: 1.42rem;
+    height: 1.42rem;
+    vertical-align: middle;
+    background: url("../images/bet-himlop-bg.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.bet-point ul {
+    width: 3.4rem;
+    text-align: justify;
+}
+.bet-point ul + ul {
+    margin-top: 0.2rem;
+}
+.bet-point >ul >li {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background: url("../images/bet-point-bg.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.bet-point >ul >li +li {
+    margin-left: 0.2rem;
+}
+
+.bet li >a {
+    display: block;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+}
+.bet-himlop >a {
+    font-size: 0.38rem;
+    padding-top: 0.32rem;
+}
+.bet-himlop >a >span {
+    font-size: 0.22rem;
+}
+.bet-point >ul >li a {
+    font-size: 0.2rem;
+    line-height: 1.25;
+    padding-top: 0.24rem;
+}
+/* E 05.19*/

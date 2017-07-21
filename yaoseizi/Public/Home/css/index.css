@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+/*苹果手机滑动流畅*/
+html {
+    -webkit-overflow-scrolling: touch;
+}
+body {
+    background-color: #250900;
+    letter-spacing: 0.02rem;
+}
+/*底部定位用position：absolute时，内容需加外框给定位*/
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    bottom: 1.17rem;
+}
+/*头部信息栏*/
+.header {
+    width: 100%;
+    /*height: 1.22rem;*/
+    margin-top: 0.1rem;
+    background-color: #131332;
+    position: relative;
+
+}
+.lottery-time, .last-lottery {
+    display: inline-block;
+    width: 40.1%;
+    height: 0.6rem;
+    text-align: center;
+    margin: 0.2rem  auto;
+    padding: 0 4.4%;
+    vertical-align: middle;
+}
+.last-lottery {
+    border-left: 1px solid #595372;
+}
+
+
+.lottery-time p, .last-lottery p {
+    line-height: 0.22rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+}
+
+p.fs-1, .fs-1 {
+    padding-top: 0.09rem;
+    color: #ebce23;
+}
+/*摇奖*/
+.main-1 {
+    width: 100%;
+    height: 5.6rem;
+    background:url("../images/z/bg.png") no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.balance, .recharge, .lottery-record, .lottery-explain, .lottery-bet {
+    width: 1.5rem;
+    height: 0.76rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.76rem;
+    position: absolute;
+    background-color: rgba(255,255,255,0.05);
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.balance {
+    width: 2.55rem;
+    top: 0.16rem;
+    left: 0.4rem;
+}
+.recharge {
+    top: 0.16rem;
+    right: 0.4rem;
+}
+.lottery-results {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.lottery-results img {
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    width: 1.68rem;
+    height: 1.73rem;
+    margin-top: -0.865rem;
+    margin-left: -0.84rem;
+}
+.lottery-record {
+    bottom: 0.4rem;
+    left: 0.5rem;
+}
+.lottery-record a {
+    width: 1.5rem;
+    height: 0.76rem;
+    display: inline-block;
+    color: #fff;
+}
+.lottery-explain {
+    bottom: 0.4rem;
+    right: 0.5rem;
+}
+.lottery-bet {
+    width: 2.08rem;
+    height: 1.2rem;
+    bottom: 0.2rem;
+    left: 50%;
+    margin-left: -1.04rem;
+    line-height: 0.37rem;
+}
+.lottery-bet p {
+    padding-top: 0.3rem ;
+}
+/*公告栏*/
+.notice-bar {
+    height: 0.92rem;
+    background: url("../images/z/bg-2.png") no-repeat;
+    background-size: 100% auto;
+    color: #bf9b64;
+    font-size: 0.22rem;
+    line-height: 0.92rem;
+    overflow: hidden;
+    position: relative;
+}
+.notice-bar li {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+}
+/*押注*/
+.bet {
+    padding: 0.29rem 0.15rem 0.3rem;
+
+}
+.bet-bigOrSmall, .bet-point {
+    width: 100%;
+    /*margin-top: 0.18rem;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    position: relative;
+    /*background: #383352;*/
+}
+.bet-bigOrSmall li, .bet-point li {
+    width: 48.5%;
+    height: 2.85rem;
+    background: #383352;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    position: absolute;
+}
+.bet-small {
+    position: absolute;
+    left: 51.5%;
+}
+.bet-point li {
+    width: 31.333%;
+}
+.bet-1 {
+    top: 3.05rem;
+    left: 0;
+}
+.bet-2 {
+    top: 3.05rem;
+    left: 34.333%;
+}
+.bet-3 {
+    top: 3.05rem;
+    left: 68.666%;
+}
+.bet-4 {
+    top: 6.1rem;
+    left: 0;
+}
+.bet-5 {
+    top: 6.1rem;
+    left: 34.333%;
+}
+.bet-6 {
+    top: 6.1rem;
+    left: 68.666%;
+}
+.wrap {
+    height: 2.53rem;
+    width: 100%;
+    background: #262144;
+    margin-top: 0.29rem;
+    text-align: center;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.wrap p {
+    padding-top: 0.68rem;
+    font-size: 0.56rem;
+    line-height: 0.56rem;
+    color: #e0cb75;
+}
+.wrap em {
+    margin: 0;
+    font-size: 0.3rem;
+    color: #ffffff;
+}
+.bet-point .wrap p {
+    font-size: 0.45rem;
+}
+.bet-point .wrap em {
+    font-size: 0.28rem;
+}
+/*底部链接*/
+.footer {
+    /*width: 100%;*/
+    /*height: 0.87rem;*/
+    /*background-color: #ffffff;*/
+    /*!*position: absolute;*!*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*position: fixed;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.87rem;
+    padding-top: 0.07rem;
+    border-top: 1px solid #d2d2d2;
+    background-color: #eee;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+.footer ul{
+    font-weight: 700;
+    vertical-align: middle;
+}
+.footer ul li{
+    float: left;
+    width: 33%;
+}
+.footer ul li h3{
+    /*line-height: 37px;*/
+    text-align: center;
+    height: 0.37rem;
+}
+.footer ul li a{
+    display: block;
+    font-size: 0.2rem;
+    height: 0.37rem;
+    padding-top: 0.39rem;
+    color: #565656;
+    position: relative;
+}
+.footer-pic{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0.39rem;
+    height: 0.39rem;
+    margin-left: -0.195rem;
+}
+.bottom-left{
+    background: url("../images/z/bottom-left-r.png") no-repeat;
+}
+.bottom-center{
+    background: url("../images/z/bottom-center.png") no-repeat;
+}
+.bottom-right{
+    background: url("../images/z/bottom-right.png") no-repeat;
+}
+.footer-pic{
+    -webkit-background-size: 0.39rem 0.39rem;
+    -moz-background-size: 0.39rem 0.39rem;
+    -o-background-size: 0.39rem 0.39rem;
+    background-size: 0.39rem 0.39rem;
+}
+/*弹窗*/
+.popup {
+    display: none;
+}
+.popup-bg {
+    _position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+}
+/*摇奖结果弹窗*/
+.popup-wrap {
+    width: 5.4rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 10000;
+    /*transform: translate(-50%, -50%);*/
+    margin-left: -2.7rem
+}
+.popup-tittle {
+    height: 0.9rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #2d2d2d;
+    line-height: 0.9rem;
+    background-color: #f8f8f8;
+    position: relative;
+}
+.popup-close {
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url(../images/z/close-pic.png) left center no-repeat;
+    background-size: 0.25rem 0.25rem;
+    position: absolute;
+    top: 0.325rem;
+    right: 0.35rem;
+    cursor: pointer;
+}
+.popup-container {
+    background-color: #fff;
+    /*border: */
+    border-top: 1px solid #d5d5d5;;
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+.popup-container p:first-child {
+    margin-top: 0.5rem;
+}
+.popup-container p {
+    text-align: center;
+    font-size: 0.28rem;
+    line-height: 0.5rem;
+    color: #363636;
+}
+.popup-close-btn {
+    width: 1.30rem;
+    height: 0.58rem;
+    background-color: #2f8ff1;
+    color: #ffffff;
+    line-height: 0.58rem;
+    text-align: center;
+    font-size: 0.3rem;
+    margin-top: 0.45rem;
+    margin-left: 2.05rem;
+    -webkit-border-radius: 0.05rem;
+    -moz-border-radius: 0.05rem;
+    border-radius: 0.05rem;
+}
+/*押注&&充值弹窗*/
+.bet-popup.popup-bg {
+    background: rgba(0, 0, 0, 0.9);
+}
+.bet-amounts {
+    position: relative;
+    margin-top: 1rem;
+    padding: 0 0.3rem;
+
+}
+.bet-amounts img{
+    width: 100%;
+}
+.bet-amount-list li {
+    position: absolute;
+    z-index: 1000;
+
+}
+.bet-amount-list li a {
+    display: inline-block;
+    width: 1.95rem;
+    height: 1.95rem;
+    /*background: red;*/
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.bet-amount-2 {
+    top: 0.02rem;
+    left: 0.02rem;
+
+}
+.bet-amount-2 {
+    top: 0.02rem;
+    left: 0.32rem;
+}
+.bet-amount-5 {
+    top: 0.02rem;
+    left: 2.78rem;
+}
+.bet-amount-10 {
+    top: 0.02rem;
+    right: 0.32rem;
+}
+.bet-amount-20 {
+    top: 2.47rem;
+    left: 0.32rem;
+}
+.bet-amount-50 {
+    top: 2.47rem;
+    left: 2.78rem;
+}
+.bet-amount-100 {
+    top: 2.47rem;
+    right: 0.32rem;
+}
+.bet-popup p {
+    font-size: 0.3rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.4rem;
+}
+.bet-active {
+    margin-top: 0.5rem;
+}
+.bet-balance{
+    margin-top: 0.3rem;
+    height: 0.4rem;
+    background: url("../images/z/icon-1.png") 26% 50% no-repeat;
+    background-size: 0.4rem 0.4rem;
+}
+.bet-buttons {
+    margin-top: 0.95rem;
+    text-align: center;
+}
+.bet-buttons div {
+    height: 0.6rem;
+    display: inline-block;
+    padding: 0 0.35rem;
+    margin-right: 0.2rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 0.6rem;
+    background-color: #24a51d;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.bet-buttons .popup-close-btn {
+    margin: 0;
+    width: auto;
+}
+/*游戏说明弹窗*/
+.lottery-explain-container {
+    width: 6.25rem;
+    padding: 0.2rem 0.25rem;
+    margin: 0 auto;
+    background: url("../images/z/explain-bg.jpg") no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -3.375rem;
+    z-index: 9999;
+    /*transform: translateY(-50%);*/
+}
+.lottery-explain-container h3 {
+    font-size: 0.43rem;
+    font-weight: bold;
+    color: #733525;
+
+}
+.lottery-explain-container p {
+    font-size: 0.28rem;
+    color: #232323;
+    line-height: 0.58rem;
+}
+p.warning {
+    color: red;
+    text-align: center;
+}

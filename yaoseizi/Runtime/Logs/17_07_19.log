@@ -1,0 +1,2318 @@
+[ 2017-07-19T15:54:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+SQL: SHOW COLUMNS FROM `sezi_hooks` [ RunTime:0.013000s ]
+SQL: SELECT `name`,`addons` FROM `sezi_hooks`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_addons` [ RunTime:0.011000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('ReturnTop') )  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment','SocialComment') )  [ RunTime:0.001001s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Editor') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('EditorForAdmin') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('SiteStat','SystemInfo','DevTeam') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `sezi_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Editor') )  [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHook [ RunTime:0.067004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.067004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T15:55:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T15:55:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T15:55:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T15:55:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T15:56:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.026002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T15:56:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T15:56:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:19:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.026001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:19:35+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: PATH_INFO D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015600s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+
+[ 2017-07-19T16:19:57+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.150009s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:20:02+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.020002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:20:02+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:20:03+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.021001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:20:06+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.023002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:20:06+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:20:06+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:41+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:42+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:55+08:00 ] 127.0.0.1 /?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.021002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.010000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:21:58+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:21:59+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:00+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:00+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:00+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:00+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.027001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:22:07+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:22:07+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:07+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:07+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:22:07+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.005000s ]
+
+[ 2017-07-19T16:22:07+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:22:08+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.021001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.021001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:23:12+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.035002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.022001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.060003s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003001s ]
+
+[ 2017-07-19T16:23:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.101006s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.022001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.040002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.022002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.029002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.024001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:15+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.010000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.047003s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.012000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.023001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.021001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.004000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.026001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:17+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.041002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.022001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:25+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:25+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:23:56+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:23:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:23:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.014001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.023001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.020001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.022001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:24:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.042002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:24:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.030001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:24:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:24:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.004000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.016001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.019001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002001s ]
+
+[ 2017-07-19T16:24:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.011001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.012000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.029002s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.024001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.021001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003000s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.024001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.015000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:25:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017000s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.003001s ]
+
+[ 2017-07-19T16:25:37+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.018001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:25:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.023001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:26:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.017001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+
+[ 2017-07-19T16:26:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.030001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+
+[ 2017-07-19T16:26:50+08:00 ] 127.0.0.1 /index.php?s=/Home/Personal/sendsms
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: dep D:\AppServ\www\yaoseizi\ThinkPHP\Library\Think\Dispatcher.class.php 第 203 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sezi_config` [ RunTime:0.013001s ]
+SQL: SELECT `type`,`name`,`value` FROM `sezi_config` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+

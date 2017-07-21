@@ -1,0 +1,76 @@
+index.html<extend name="Public/base"/>
+
+
+<block name="body">
+    <!-- 标题栏 -->
+    <div class="main-title">
+        <h2>[数据中心]</h2>
+    </div>
+    <!-- 内容区 -->
+    <div id="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+            <button class="close fixed" style="margin-top: 4px;">×</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div id="main" class="main" style="min-height: 532px;">
+
+            <!-- 标题栏 -->
+            <div class="main-title" style="padding-bottom:10px;">
+                <h2>报表日期：{$rq}</h2><br />
+
+            </div>
+            <div class="cf">
+            </div>
+            <!-- 数据列表 -->
+            <div class="data-table table-striped">
+                <form action="__SELF__" method="post">
+                    <!--<input type="hidden" name="money_id" value="{$money_id.id}" />
+                    <a class="btn btn-return" href="{:U("Record/update")}">通过审核</a>-->
+                    </from>
+                    <table class="">
+
+                        <tbody>
+                        <tr>
+                            <td>【今日】</td>
+                        </tr>
+                        <tr>
+                            <td><span>总用户数：</span>{$trp} </td><td><span>毛利润：</span>{$typ} </td>
+                        </tr>
+                        <tr>
+                            <td><span>投注总额：</span>{$tlp} </td><td><span>中奖总额：</span>{$tnp} </td>
+                        </tr>
+
+                        <tr>
+                            <td>【本月】</td>
+                        </tr>
+                        <tr>
+                            <td><span>总用户数：</span>{$trp} </td><td><span>毛利润：</span>{$typ} </td>
+                        </tr>
+                        <tr>
+                            <td><span>投注总额：</span>{$tlp} </td><td><span>中奖总额：</span>{$tnp} </td>
+                        </tr>
+
+                        <tr>
+                            <td>【累计】</td>
+                        </tr>
+                        <tr>
+                            <td><span>总用户数：</span>{$trp} </td><td><span>毛利润：</span>{$typ} </td>
+                        </tr>
+                        <tr>
+                            <td><span>投注总额：</span>{$tlp} </td><td><span>中奖总额：</span>{$tnp} </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                    <br />
+                    <!--<a class="btn btn-return" href="{:U("Analyse/index")}">返 回</a>-->
+            </div>
+
+
+        </div>
+
+    </div>
+
+</block>

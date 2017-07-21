@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <title>佣金记录</title>
+    <script src="__PUBLIC__/Home/js/jquery-2.1.4.js"></script>
+    <script src="__PUBLIC__/Home/js/flexiblem.js"></script>
+    <script src="__PUBLIC__/Home/js/personal.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/personal.css">
+</head>
+<body>
+<article class="commission-b">
+    <section class="commission">
+        <div class="my-commission">
+            <h3 class="my-commission-txt font-13">我的佣金：</h3>
+            <ul>
+                <li>
+                    <h3 class="level font-13">1级</h3>
+                    <p class="level-num font-13">{$money1}</p>
+                </li>
+                <li>
+                    <h3 class="level font-13">2级</h3>
+                    <p class="level-num font-13">{$money2}</p>
+                </li>
+                <li>
+                    <h3 class="level font-13">3级</h3>
+                    <p class="level-num font-13">{$money3}</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <volist name="list" id="item">
+    <section class="reward green takeNotes fn-clear">
+        <p class="balance-money green fn-left font-13">
+            收入 +<span>{$item.money}</span>
+        </p>
+        <p class="balance-date green fn-right font-10">
+            {:date('Y-m-d',$item['create_time'])}
+        </p>
+    </section>
+    </volist>
+    <section class="record-message"><p class="fon-13"></p></section>
+</article>
+<nav>
+    <ul class="font-10">
+        <li>
+            <a href="{:U('Index/index')}">
+                <div class="nav-pic bottom-left"></div>
+                <h3 >猜大小</h3>
+            </a>
+        </li>
+        <li>
+            <a href="{:U('Partake/index')}">
+                <div class="nav-pic bottom-center"></div>
+                <h3>分享赚钱</h3>
+            </a>
+        </li>
+        <li>
+            <a href="{:U('Personal/index')}">
+                <div class="nav-pic bottom-right"></div>
+                <h3>个人中心</h3>
+            </a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

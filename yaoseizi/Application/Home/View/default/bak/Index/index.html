@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <title>猜骰子</title>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/index.css">
+    <script src="__PUBLIC__/Home/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Home/js/flexible.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!--头部信息栏-->
+        <div class="header">
+            <div class="lottery-time">
+                <p>距离<span id="next-period">{$award_info.nex_periods}</span>期开奖时间</p>
+                <p class="fs-1" id="time-left">{$award_info.wait_time}秒</p>
+            </div>
+            <div class="last-lottery">
+                <p>上期开奖结果</p>
+                <p class="fs-1">第<span id="last-period">{$award_info.pre_periods}</span>期：
+                    <span id="last-point">{$award_info.pre_dot}</span>点，
+                    <span id="last-hilomp">
+                        {$award_info.pre_big_dot}
+                    </span>
+                </p>
+            </div>
+        </div>
+        <!--摇奖栏-->
+        <div class="main-1">
+            <!--我的余额-->
+            <div class="balance">
+                我的余额:<span>{$member.money}</span>
+            </div>
+            <!--我要充值-->
+            <div class="recharge">
+                我要充值
+            </div>
+            <!--骰子结果-->
+            <div class="lottery-results">
+                <img src="__PUBLIC__/Home/images/z/dice-1.png" alt="1">
+                <img src="__PUBLIC__/Home/images/z/dice-2.png" alt="2">
+                <img src="__PUBLIC__/Home/images/z/dice-3.png" alt="3">
+                <img src="__PUBLIC__/Home/images/z/dice-4.png" alt="4">
+                <img src="__PUBLIC__/Home/images/z/dice-5.png" alt="5">
+                <img src="__PUBLIC__/Home/images/z/dice-6.png" alt="6">
+            </div>
+            <!--历史记录-->
+            <div class="lottery-record">
+                <a href="{:U('Index/record')}">历史记录</a>
+            </div>
+            <!--押注-->
+            <div class="lottery-bet">
+                <p>
+                    本次压注：<span class="fs-1">{$my.dot}</span> <br>
+                    筹码数：<span class="fs-1">{$my.money}</span>
+                </p>
+            </div>
+            <!--游戏说明-->
+            <div class="lottery-explain">
+                游戏说明
+            </div>
+        </div>
+        <!--公告栏-->
+        <ul class="notice-bar">
+           <li>{$rollinfo}</li>
+        </ul>
+        <!--押注栏-->
+        <div class="bet">
+            <ul class="bet-bigOrSmall">
+                <li class="bet-big" data-dot="8">
+                    <div class="wrap">
+                        <p>大</p>
+                        <em>1赔1.9</em>
+                    </div>
+
+                </li>
+                <li class="bet-small" data-dot="7">
+                    <div class="wrap">
+                        <p>小</p>
+                        <em>1赔1.9</em>
+                    </div>
+                </li>
+            </ul>
+            <ul class="bet-point">
+                <li class="bet-1" data-dot="1">
+                    <div class="wrap">
+                        <p>1</p>
+                        <em>1赔5</em>
+                    </div>
+
+                </li>
+                <li class="bet-2" data-dot="2">
+                    <div class="wrap">
+                        <p>2</p>
+                        <em>1赔5</em>
+                    </div>
+                </li>
+                <li class="bet-3" data-dot="3">
+                    <div class="wrap">
+                        <p>3</p>
+                        <em>1赔5</em>
+                    </div>
+                </li>
+                <li class="bet-4" data-dot="4">
+                    <div class="wrap">
+                        <p>4</p>
+                        <em>1赔5</em>
+                    </div>
+                </li>
+                <li class="bet-5" data-dot="5">
+                    <div class="wrap">
+                        <p>5</p>
+                        <em>1赔5</em>
+                    </div>
+                </li>
+                <li class="bet-6" data-dot="6">
+                    <div class="wrap">
+                        <p>6</p>
+                        <em>1赔5</em>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--底部链接栏-->
+    <div class="footer">
+        <ul>
+            <li>
+                <a href="#">
+                    <div class="footer-pic bottom-left"></div>
+                    <h3 >猜大小</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Partake/index')}">
+                    <div class="footer-pic bottom-center"></div>
+                    <h3>分享赚钱</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Personal/index')}">
+                    <div class="footer-pic bottom-right"></div>
+                    <h3>个人中心</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="popup">
+        <!--骰子开奖结束时显示-->
+        <div class="lottery-result-tips popup-bg">
+            <div class="popup-wrap">
+                <div class="popup-tittle">
+                    信息
+                    <span class="popup-close"></span>
+                </div>
+                <div class="popup-container">
+                    <p>第<span id="period-all"></span>期:<span id="tips-period-result"></span></p>
+                    <p class="bet-result">本期没有投注，下期加油</p>
+                    <div class="popup-close-btn">确定</div>
+                </div>
+            </div>
+        </div>
+        <!--押注选择下注数量 && 充值页面-->
+        <div class="bet-popup popup-bg" >
+            <div class="bet-amounts">
+                <img src="__PUBLIC__/Home/images/z/bet-bg.png" alt="">
+                <ul class="bet-amount-list">
+                    <li class="bet-amount-2"><a href="{:U('Index/cathecticMoney')}"></a></li>
+                    <li class="bet-amount-5"><a href="#"></a></li>
+                    <li class="bet-amount-10"><a href="#"></a></li>
+                    <li class="bet-amount-20"><a href="#"></a></li>
+                    <li class="bet-amount-50"><a href="#"></a></li>
+                    <li class="bet-amount-100"><a href="#"></a></li>
+                </ul>
+            </div>
+            <p class="bet-active">本次押注：<span id="bet-point">无</span></p>
+            <p class="bet-balance"><span></span>账户余额：{$member.money}</p>
+            <div class="bet-buttons">
+                <div id="yazhu">请选择金额</div>
+                <div class="popup-close-btn">退出</div>
+            </div>
+
+        </div>
+        <!--游戏说明-->
+        <div class="lottery-explain-popup popup-bg"><!--<a href="{:U('Index/game')}"></a>-->
+            <div class="lottery-explain-container">
+                <h3>玩法规则</h3>
+                <p>用户直接下注：大、小、点数。</p>
+                <p class="warning">注：只出一个中奖结果</p>
+                <p>买中开出的结果，用户可获得相应赔率的金额</p>
+                <p>大：4点至6点</p>
+                <p>小：1点至3点</p>
+                <p>具体请参照骰子游戏下方赔率</p>
+                <p>本游戏为计时开奖，每分钟开一盘，投注以实际支付完成时间为准，开奖前3秒不能购买当期，直接跳转购买下期。点数由电脑随机统一开奖，可和朋友一起娱乐，切莫沉迷。</p>
+                <!--{$gameinfo}-->
+            </div>
+
+        </div>
+        <div class="lottery-success-popup popup-bg">
+            <div class="popup-wrap">
+                <div class="popup-tittle">
+                    信息
+                    <span class="popup-close"></span>
+                </div>
+                <div class="popup-container">
+                    <p class="res_msg">投注成功，请等待开奖！</p>
+                    <div class="popup-close-btn">确定</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="__PUBLIC__/Home/js/index.js" ></script>
+<script>
+    var dot = 1;
+    var wait = {$award_info.wait_time};
+    var jis;
+    if(wait == 0){
+        jieshu();
+    }else{
+        jis =  setInterval(function(){
+            --wait;
+            if(wait == 0){
+                clearInterval(jis);
+                jieshu();
+            }else{
+                $("#time-left").text((wait)+"秒");
+            }
+
+        },1000)
+    }
+
+
+
+    function jieshu() {
+        var lottery_results =$(".lottery-results").find("img");
+        $("#time-left").text("正在开奖中......");
+        function count4(){
+            var count = Math.floor(Math.random() * 6);      //Math.random是0-1 所以*6
+            lottery_results.eq(count).show().siblings().hide(); //显示当前图片，其它兄弟图片隐藏
+        }
+        count4();
+        interval2 = setInterval(count4, 250);       //每秒调用4次，图片切换速度更快，动画效果更好
+        setTimeout(function(){
+            $.ajax({
+                type: "GET",
+                url: "{:U('Index/ajaxGetAward')}",
+                dataType: "json",
+                success: function(data){
+                    lottery_result_point = data.dot-1;
+                    lottery_results.eq(lottery_result_point).show().siblings().hide();
+                    clearInterval(interval2);
+                    //提示弹窗
+                    $("#period-all").text(data.period);
+                    $("#tips-period-result").text(data.res_dot);
+                    $(".bet-result").text(data.msg);
+                    $(".lottery-result-tips").show();
+                }
+            });
+        },2000)
+    }
+
+    $("#yazhu").click(function(){
+
+        $.ajax({
+            type: "POST",
+            url: "{:U('Index/ajaxYazhu')}",
+            data:{dot:dot},
+            dataType: "json",
+            success: function(data){
+                //提示弹窗
+                $(".res_msg").text(data.msg);
+                $(".lottery-success-popup").show();
+            }
+        });
+    })
+    var bet = $(".bet").find("li");
+    bet.on("click", function () {
+        dot = $(this).attr('data-dot');
+        $(".bet-popup").show();
+        $("#bet-point").text($(this).find("p").text());
+
+    });
+</script>
+</body>
+</html>

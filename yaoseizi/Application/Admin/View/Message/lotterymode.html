@@ -1,0 +1,93 @@
+index.html<extend name="Public/base"/>
+<!--<link rel="stylesheet" href="__PUBLIC__/Admin/layer/layer/mobile/need/layer.css">-->
+
+<block name="body">
+    <!-- 标题栏 -->
+    <div class="main-title">
+        <h2>[设置开奖模式]</h2>
+        注：必须先选择一个开奖模式，才能开始投注
+    </div>
+    <!--【1】客服操作开奖模式-->
+    自动模式：随机开奖&nbsp;&nbsp;　<input type="radio" name="module" value="1" class="one" <eq name="sys.Lottery_mode" value="1">checked</eq> /><br />
+    <!--勾上选中后，就不消失，再次点击才消失，每次勾上调用方法，给此后都会给此模式置为2，没勾上的状态为0-->
+    手动模式1：庄家赢&nbsp;&nbsp;　<input type="radio" name="module" value="2" class="one" <eq name="sys.Lottery_mode" value="2">checked</eq> />（如：当期买大的人多，就开小。无人购买随机开）<br />
+    手动模式2：庄家输&nbsp;&nbsp;　<input type="radio" name="module" value="3" class="one" <eq name="sys.Lottery_mode" value="3">checked</eq> />（如：当期买大的人多，就开大。无人购买随机开）<br />
+    <!--模式3勾上以后，才可以勾选下边的框
+    手动模式3：开固定号&nbsp;&nbsp;<input id="checked" type="radio" name="module" class="one" value="4"/>（如：勾选什么号，开什么号）<br />
+             1<input type="radio" name="single" data="1" disabled="disabled" class="identical"/><br />
+             2<input type="radio" name="single" data="2" disabled="disabled" class="identical"/><br />
+             3<input type="radio" name="single" data="3" disabled="disabled" class="identical"/><br />
+             4<input type="radio" name="single" data="4" disabled="disabled" class="identical"/><br />
+             5<input type="radio" name="single" data="5" disabled="disabled" class="identical"/><br />
+             6<input type="radio" name="single" data="6" disabled="disabled" class="identical"/><br />
+    -->
+
+
+</block>
+
+<block name="script">
+<link href="__STATIC__/datetimepicker/css/datetimepicker.css" rel="stylesheet" type="text/css">
+<php>if(C('COLOR_STYLE')=='blue_color') echo '<link href="__STATIC__/datetimepicker/css/datetimepicker_blue.css" rel="stylesheet" type="text/css">';</php>
+<link href="__STATIC__/datetimepicker/css/dropdown.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+<!--<script type="text/javascript" src="__ROOT__/Public/Admin/layer/layer/layer.js"></script>-->
+<script type="text/javascript">
+
+$(function(){
+    setInterval(function(){
+        $.get("{:U('Message/ajaxAward')}");
+    },1000);     //setInterval(fn,i) 定时器，每隔i秒执行fn
+
+
+
+    //自动模式，庄家赢模式，庄家输模式
+    $('.one').click(function(){
+        //$("input[name='single']").attr("disabled",true);
+        var value = $(this).val()
+        $.ajax({
+            url:"{:U('Message/ajaxModule')}",
+            type:"post",
+            dataType:"json",
+            data:{value:value},
+            success:function(data){
+                if(data.code==1){
+                    alert(data.msg);
+                }else{
+                    alert(data.msg);
+                }
+            }
+        });
+    });
+
+    $("input[name='single']").attr("disabled",false);
+
+    /*//固定开X号
+     $('.identical').click(function(){           //点击子按钮
+     var value = $('#checked').val();                //获取 当前模式的值4
+     var gudingdot = $(this).attr('data');           //获取 客服选择的1-6
+     $.ajax({
+     url:"{:U('Message/LotteryMode')}",
+     type:"post",
+     dataType:"json",
+     data:{gudingdot:gudingdot},
+     success:function(data){
+     if(data.code==1){
+     alert(data.msg);
+     }else{
+     alert(data.msg);
+     }
+     }
+     });
+     })
+
+     //固定号模式
+     $('#checked').click(function () {
+     //$("input[name='single']").attr("disabled",false);
+     var value = $(this).val()                       //4模式
+     });*/
+
+    //
+})
+</script>
+</block>

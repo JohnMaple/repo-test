@@ -1,0 +1,103 @@
+<extend name="Public/base"/>
+
+<block name="sidebar"></block>
+
+<block name="style">
+    <style>
+        body{padding: 0}
+        .sys-info th{
+            width: 18%;
+        }
+		.sys-info a {
+			display: inline-block;
+			width: 100px;
+		}
+		.columns-mod .bd{
+			height:auto;
+		}
+    </style>
+</block>
+
+<block name="body">
+    <!-- 主体 -->
+   <!-- <div id="indexMain" class="index-main">
+       &lt;!&ndash; 插件块 &ndash;&gt;
+       <div class="container-span">{:hook('AdminIndex')}</div>
+    </div>-->
+    <div class="span{$addons_config.width}">
+        <div class="columns-mod">
+            <div class="hd cf">
+                <h5>产品团队</h5>
+                <div class="title-opt">
+                </div>
+            </div>
+            <div class="bd">
+                <div class="sys-info">
+                    <table>
+                        <tr>
+                            <th>今日总充值：{$today_recharge|default=0}</th>
+                            <td>今日总提现：{$today_deposit|default=0}</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>总充值</th>
+                            <th>总提现</th>
+                            <th>总余额</th>
+                            <th>佣金</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>{$cur_remoney}</td>
+                            <td>{$cur_demoney}</td>
+                            <td>{$all_bamoney}</td>
+                            <td>{$c_money}</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>时间</th>
+                            <th>历史总充值</th>
+                            <th>历史总提现</th>
+                            <th>历史总余额</th>
+                            <th>历史佣金</th>
+                        </tr>
+                        <foreach name="lists" item="item">
+                        <tr>
+                            <td>{$item.date}</td>
+                            <td>{$item.cur_remoney}</td>
+                            <td>{$item.cur_demoney}</td>
+                            <td>{$item.all_bamoney}</td>
+                            <td>{$item.commission}</td>
+                        </tr>
+                        </foreach>
+                        <tr style="margin-top: 20px;">
+                            <th colspan="5" style="font-weight: 800">佣金公式：（充值总额-剩余总额-提现总额）* {$memeber_result.fanli}%</th>
+                        </tr>
+                    </table>
+                </div>
+				  <div class="sys-info">
+					<?php for($i=1;$i<=8;$i++){?>
+						<a href="<?php echo $admin_path.$i.'_share.png'?>"><img src="<?php echo $admin_path.$i.'_share.png'?>"></a>
+					<?php }?>
+				  </div>
+            </div>
+        </div>
+    </div>
+
+</block>
+
+<block name="script">
+<script type="text/javascript">
+    /* 插件块关闭操作 */
+    $(".title-opt .wm-slide").each(function(){
+        $(this).click(function(){
+            $(this).closest(".columns-mod").find(".bd").toggle();
+            $(this).find("i").toggleClass("mod-up");
+        });
+    })
+    $(function(){
+        // $('#main').attr({'id': 'indexMain','class': 'index-main'});
+        $('.copyright').html('<div class="copyright"> 幸运60秒</div>');
+        $('.sidebar').remove();
+    })
+</script>
+</block>

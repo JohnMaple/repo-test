@@ -1,0 +1,35 @@
+index.html<extend name="Public/base"/>
+
+
+<block name="body">
+    <script type="text/javascript" src="__STATIC__/uploadify/jquery.uploadify.min.js"></script>
+    <div class="main-title cf">
+        <h2>
+            文章详情页
+        </h2>
+    </div>
+    <!-- 数据列表 -->
+    <div class="data-table table-striped">
+        <table class="">
+
+            <tbody>
+
+            <tr>
+                <td><span>标题：</span>{$details.title} </td><td><span>创建时间：</span>{$details.create_time|date="Y-m-d H:i:s",###} </td>
+            </tr>
+            <tr>
+                <td><span>类型：</span><?php if($details['type'] == 1){echo "公告";} else {echo "玩法";}?> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><span>内容：</span>{$details.content} </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+        <a class="btn btn-return" href="{:U("Message/index")}">返 回</a>
+    </div>
+</block>
+

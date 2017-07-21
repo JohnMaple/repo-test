@@ -1,0 +1,626 @@
+    /*个人中心 开始*/
+    body{
+        background-color: #f3f3f3;
+    }
+    article{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 1.1333333333333333rem;
+        width: 100%;
+        overflow: auto;
+    }
+    .header{
+        width: 100%;
+        height: 4.6rem;
+        background-color: #332b50;
+        padding-top: 0.9333333333333333rem;
+        color: #e6e5ea;
+        border-bottom: 1px solid #9a98a9;
+    }
+    .head-bg{
+        width: 2.6666666666666665rem;
+        height: 2.6666666666666665rem;
+        border-radius: 1.3333333333333333rem;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .head-pic{
+        width: 2.6666666666666665rem;
+        height: 2.6666666666666665rem;
+        background: url("../images/M/header.png") no-repeat;
+        -webkit-background-size: 2.6666666666666665rem 2.6666666666666665rem;
+        -moz-background-size: 2.6666666666666665rem 2.6666666666666665rem;
+        -o-background-size: 2.6666666666666665rem 2.6666666666666665rem;
+        background-size: 2.6666666666666665rem 2.6666666666666665rem;
+    }
+    .user-name{
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+    .header p{
+        height: 1rem;
+        text-align: center;
+    }
+    .balance{
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        margin: 0.06666666666666667rem 0;
+    }
+    .my-balance{
+        display: table;
+        width: 92%;
+        height: 1.2666666666666666rem;
+        line-height: 1.2666666666666666rem;
+        margin: 0 auto;
+        position: relative;
+    }
+    .balance-txt{
+        width: 88.130435%;
+        font-weight: 700;
+        padding: 0 2.8985507246376812% 0 8.985507246376812%;
+        position: relative;
+    }
+    .balance-pic{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0.6933333333333334rem;
+        height: 0.6933333333333334rem;
+        background: url("../images/M/balance.png") no-repeat;
+        -webkit-background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        -moz-background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        -o-background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        margin-top: -0.3466666666666667rem;
+    }
+    .balance-num{
+        color: #d11212;
+    }
+    .balance-btn{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 2.3466666666666667rem;
+        height: 0.7866666666666666rem;
+        line-height: 0.7866666666666666rem;
+        text-align: center;
+        color: #fffaff;
+        border-radius: 0.10666666666666667rem;
+        background-color: #775dc2;
+        margin-top: -0.3933333333333333rem;
+    }
+
+    .record{
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        margin-top: 0.06666666666666667rem;
+    }
+    .record a{
+        display: block;
+        width: 92%;
+        height: 1.2666666666666666rem;
+        line-height: 1.2666666666666666rem;
+        margin: 0 auto;
+    }
+    .record a:last-child p{
+        border: none;
+    }
+    .record p{
+        width: 88.130435%;
+        padding: 0 2.8985507246376812% 0 8.985507246376812%;
+        border-bottom: 1px solid #dfdfdf;
+        position: relative;
+    }
+    .left{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0.6933333333333334rem;
+        height: 0.6933333333333334rem;
+        margin-top: -0.3466666666666667rem;
+    }
+    .right{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 0.2rem;
+        height: 0.30666666666666664rem;
+        background: url("../images/M/right.png") no-repeat;
+        -webkit-background-size: 0.2rem 0.30666666666666664rem;
+        -moz-background-size: 0.2rem 0.30666666666666664rem;
+        -o-background-size: 0.2rem 0.30666666666666664rem;
+        background-size: 0.2rem 0.30666666666666664rem;
+        margin-top: -0.15333333333333332rem;
+    }
+    .cathectic-pic{
+        background: url("../images/M/cathectic.png") no-repeat;
+    }
+    .kiting-pic{
+        background: url("../images/M/kiting.png") no-repeat;
+    }
+    .reward-pic{
+        background: url("../images/M/reward.png") no-repeat;
+    }
+    .commission-pic{
+        background: url("../images/M/commission.png") no-repeat;
+    }
+    .custom-service-pic{
+        background: url("../images/M/custom-service.png") no-repeat;
+    }
+    .left{
+        -webkit-background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        -moz-background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        -o-background-size: 0.6933333333333334rem 0.6933333333333334rem;
+        background-size: 0.6933333333333334rem 0.6933333333333334rem;
+    }
+    /*个人中心 结束*/
+
+    /*开奖记录 投注记录 开始*/
+    .record-b{
+        width: 100%;
+        background-color: #fff;
+        padding-top: 0.26666666666666666rem;
+    }
+    .reward{
+        width: 84.26666666666667%;
+        height: 1.8133333333333332rem;
+        border-top: 2px solid #efefef;
+        border-bottom: 2px solid #efefef;
+        border-left: 2px solid #efefef;
+        border-right: 12px solid #3d3461;
+        border-radius: 12px;
+        padding: 0 0.5333333333333333rem;
+        margin: 0 auto 0.26666666666666666rem;
+        position: relative;
+    }
+    .reward div{
+        width: 45%;
+        height: inherit;
+    }
+    div.reward-left{
+        position: absolute;
+        top: 50%;
+        left: 0.5333333333333333rem;
+        height: 1rem;
+        line-height: 0.5rem;
+        margin-top: -0.7rem;
+        color: #202020;
+    }
+    .reward-left h3{
+
+        font-weight: 700;
+    }
+    .reward-right{
+        line-height: 1.8133333333333332rem;
+        text-align: right;
+        color: #202020;
+        font-weight: 700;
+    }
+    /*开奖记录 投注记录 结束*/
+
+    /*提现记录 开始*/
+    .balance-money{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .balance-date{
+        text-align: right;
+    }
+    .balance-money , .balance-date{
+        width: 100%;
+        line-height: 0.9066666666666666rem;
+        color: #202020;
+        font-weight: 700;
+    }
+
+    /*提现记录 结束*/
+
+    /*佣金记录 开始*/
+    .commission-b{
+        background-color: #fff;
+    }
+    .commission{
+        border-bottom: 2px solid #cecece;
+        margin-bottom: 0.26666666666666666rem;
+        background-color: #f1eeee;
+        padding-top: 0.5rem;
+    }
+    .my-commission{
+        width: 80%;
+        height: 2.6666666666666665rem;
+        border: 3px solid #cecece;
+        border-radius: 10px;
+        margin: 0 auto 0.5rem;
+        background-color: #fff;
+    }
+    .my-commission-txt{
+        height: 0.8rem;
+        line-height: 0.8rem;
+        font-weight: 700;
+        margin: 0 0.2rem;
+        border-bottom: 3px dashed #cecece;
+    }
+    .my-commission ul{
+        margin: 0 0.2rem;
+    }
+    .my-commission ul li{
+        float: left;
+        width: 33%;
+        height: 1.8rem;
+
+    }
+    .level{
+        height: 0.8rem;
+        line-height: 0.8rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .level-num{
+        height: 1rem;
+        line-height: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    /*佣金记录 结束*/
+
+    /*个人二维码 开始*/
+    .code-pic{
+        width: 100%;
+        height: 14.666666666666666rem;
+    }
+    div.code-bottom-center{
+        background-image: url("../images/M/bottom-center-r.png");
+    }
+    div.code-bottom-right{
+        background-image: url("../images/M/bottom-right.png");
+    }
+    /*个人二维码 结束*/
+    
+    /*联系客服 开始*/
+    .custom-service-bg{
+        background-color: #fff;
+    }
+    .custom-service{
+
+        padding-top: 0.4rem
+    }
+    .custom-service p , .custom-service h3{
+        width: 100%;
+        text-align: center;
+    }
+    .custom-service h3{
+        font-weight: 700;
+    }
+    /*联系客服 结束*/
+
+
+    /*暂时没有记录 提示 开始*/
+    .record-message p{
+        width: 100%;
+        height: 1rem;
+        line-height: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    /*暂时没有记录 提示 结束*/
+
+    /*额外 颜色*/
+    section.green{
+        border-right: 12px solid #17a104;
+    }
+    section.red{
+        border-right: 12px solid #c50811;
+    }
+    section.gold{
+        border-right: 12px solid #c7a504;
+    }
+    div.gold{
+        color: #c7a504;
+    }
+    p.red{
+        color: #c50811;
+    }
+    p.green{
+        color: #17a104;
+    }
+    .my-commission h3 , .my-commission p{
+        color: #e07a03;
+    }
+    /*佣金记录 结束*/
+
+    /*nav 开始*/
+    nav{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1.0133333333333334rem;
+        padding-top: 0.12rem;
+        border-top: 1px solid #d2d2d2;
+        background-color: #eee;
+    }
+    nav ul{
+        font-weight: 700;
+    }
+    nav ul li{
+        float: left;
+        width: 33%;
+    }
+    nav ul li h3{
+        text-align: center;
+    }
+    nav ul li a{
+        display: block;
+        height: 0.4933333333333334rem;
+        padding-top: 0.52rem;
+        position: relative;
+    }
+    .nav-pic{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 0.52rem;
+        height: 0.52rem;
+        margin-left: -0.26rem;
+    }
+    .bottom-left{
+        background: url("../images/M/bottom-left.png") no-repeat;
+    }
+    .bottom-center{
+        background: url("../images/M/bottom-center.png") no-repeat;
+    }
+    .bottom-right{
+        background: url("../images/M/bottom-right-r.png") no-repeat;
+    }
+    .nav-pic{
+        -webkit-background-size: 0.52rem 0.52rem;
+        -moz-background-size: 0.52rem 0.52rem;
+        -o-background-size: 0.52rem 0.52rem;
+        background-size: 0.52rem 0.52rem;
+    }
+    /*nav 结束*/
+
+    /*模态  信息弹窗*/
+    .message-modal , .balance-modal{
+        display: none;
+        _position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+    }
+    .opacity{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.4);
+    }
+    .message{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 72%;
+        height: 4.053333333333334rem;
+        border-radius: 5px;
+        background-color: #fff;
+        margin: -2.026666666666667rem 0 0 -36%;
+    }
+    .message h3{
+        height: 1.1333333333333333rem;
+        line-height: 1.1333333333333333rem;
+        background-color: #f7f7f7;
+        border-bottom: 2px solid #eee;
+        text-align: center;
+        position: relative;
+    }
+    .close-btn{
+        position: absolute;
+        top: 50%;
+        right: 0.266666666666666666666rem;
+        width: 0.3333333333333333rem;
+        height: 0.3333333333333333rem;
+        background: url("../images/M/close-pic.png") no-repeat;
+        -webkit-background-size: 0.3333333333333333rem 0.3333333333333333rem;
+        -moz-background-size: 0.3333333333333333rem 0.3333333333333333rem;
+        -o-background-size:  0.3333333333333333rem 0.3333333333333333rem;
+        background-size: 0.3333333333333333rem 0.3333333333333333rem;
+        padding: 0;
+        margin-top: -0.16666666666666666rem;
+    }
+    .message p{
+        height: 1.84rem;
+        line-height: 1.84rem;
+        text-align: center;
+    }
+    .true-btn{
+        width: 1.68rem;
+        height: 0.7866666666666666rem;
+        line-height: 0.7866666666666666rem;
+        text-align: center;
+        color: #fff;
+        border-radius: 10px;
+        background-color: #2f8ceb;
+        margin: 0 auto;
+    }
+
+    /*提现弹窗*/
+    .balance-pop-up{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 72%;
+        height: 6rem;
+        border-radius: 5px;
+        background-color: #fff;
+        margin: -3rem 0 0 -36%;
+    }
+    .balance-pop-up h3{
+        height: 1.1333333333333333rem;
+        line-height: 1.1333333333333333rem;
+        background-color: #f7f7f7;
+        border-bottom: 2px solid #eee;
+        text-align: center;
+        position: relative;
+    }
+    .balance-t .balance-txt{
+        padding: 0;
+    }
+    .balance-t , .balance-b{
+        width: 60%;
+        padding: 0;
+        position: relative;
+    }
+    .balance-t{
+        margin: 0.7rem auto;
+    }
+    .balance-b{
+        margin: 0 auto 0.4rem;
+    }
+    .balance-b label{
+        font-weight: 700;
+    }
+    #balanceBtn , .balance-t .balance-num{
+        width: 62.96296296296297%;
+        margin-left: 1.3333333333333333rem;
+        padding-left: 0.26666666666666666rem;
+    }
+    #balanceBtn{
+        height: 0.5333333333333333rem;
+        outline-style: none;
+        border: 1px solid #676666;
+        border-radius: 5px;
+    }
+    .balance-b label , .balance-t .balance-txt{
+        position: absolute;
+        left: 0;
+        width: 1.3333333333333333rem;
+    }
+    .pop-up-btn{
+        display: table;
+        width: 1.6rem;
+        height: 0.8rem;
+        color: #fff;
+        background-color: #2f8ceb;
+        border-radius: 10px;
+        border: none;
+        outline-style: none;
+        margin: 0 auto;
+    }
+    .wrong-message{
+        width: 80%;
+        text-align: center;
+        margin: 0.3rem auto 0;
+        color: #ee0404;
+    }
+    .popup-bg {
+        _position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0);
+        width: 100%;
+        height: 100%;
+    }
+    .lottery-explain-container {
+        width: 6.25rem;
+        padding: 0.2rem 0.25rem;
+        margin: 0 auto;
+        background: url("../images/z/explain-bg.jpg") no-repeat;
+        background-size: auto 100%;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        margin-left: -3.375rem;
+        /*transform: translateY(-50%);*/
+    }
+
+
+
+    /*========================7.8添加==================================*/
+
+.popupmask{
+    opacity: 1;
+    transition: opacity .4s;
+}
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+.popup1{
+    position: fixed;
+    top: 32%;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+    background-color: #fff;
+    z-index: 2000;
+	opacity: 1;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ececec;
+}
+.popup-header span{
+    flex: 0 0 10%;
+    width: 10%;
+    font-size: 20px;
+}
+.popup-header h4{
+    margin-left: 10%;
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.popup-input-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 6% auto;
+    width: 90%;
+    height: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+}
+.popup-input-wrap input{
+    width: 65%;
+    border-style: none;
+    text-indent: 1em;
+}
+.popup-input-wrap button{
+    margin-top: -7px;
+    width: 35%;
+    height: 100%;
+    font-size: 10px;
+    border-style: none;
+    background: #ececec;
+    border-radius: 5px;
+}
+.popup-submit{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    background: #2f8ceb;
+}
+
+

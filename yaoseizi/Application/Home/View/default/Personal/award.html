@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <title>历史开奖记录</title>
+    <script src="__PUBLIC__/Home/js/jquery-2.1.4.js"></script>
+    <script src="__PUBLIC__/Home/js/flexiblem.js"></script>
+    <script src="__PUBLIC__/Home/js/personal.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/personal.css">
+</head>
+<body>
+    <article class="record-b">
+        <volist name="info" id="vo">
+        <section class="reward takeNotes gold fn-clear">
+            <div class="reward-left gold fn-left font-13">
+                <!--<h3>开奖号码：<span>5 【大】</span></h3>
+                <p>2017-04-19 15:35:00</p>-->
+                <h3>开奖号码：<span>{$vo.dot}
+                                <if condition="$vo.dot_big eq 7 "> 小
+                                    <elseif condition="$vo.dot_big eq 8"/> 大
+                                </if>
+                            </span>
+                </h3>
+                <p>{$vo.current_date}</p>
+            </div>
+            <div class="reward-right gold fn-right font-13">
+                <span>{$vo.periods}</span>
+            </div>
+        </section>
+        <section class="record-message"><p class="fon-13"></p></section>
+        </volist>
+    </article>
+    <nav>
+        <ul class="font-10">
+            <li>
+                <a href="{:U('Index/index')}">
+                    <div class="nav-pic bottom-left"></div>
+                    <h3 >猜大小</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Partake/index')}">
+                    <div class="nav-pic bottom-center"></div>
+                    <h3>分享赚钱</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Personal/index')}">
+                    <div class="nav-pic bottom-right"></div>
+                    <h3>个人中心</h3>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

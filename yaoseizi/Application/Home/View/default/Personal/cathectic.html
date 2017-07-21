@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <title>骰子投注记录</title>
+    <script src="__PUBLIC__/Home/js/jquery-2.1.4.js"></script>
+    <script src="__PUBLIC__/Home/js/flexiblem.js"></script>
+    <script src="__PUBLIC__/Home/js/personal.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/personal.css">
+</head>
+<body>
+<article class="record-b">
+    <volist name="lists" id="item">
+    <section class="reward takeNotes fn-clear">
+            <div class="reward-left fn-left font-13">
+                <h3>投注号码：<span><if condition="$item.dot eq 7">小<elseif condition="$item.dot eq 8"/>大<else />{$item.dot}</if></span></h3>
+                <p>投注金额：{$item.money}</p>
+                <p>是否中奖：<eq name="item['is_award']" value="1">是<else/>否</eq></p>
+            </div>
+            <div class="reward-right fn-right font-13">
+                {$item.periods}期
+            </div>
+    </section>
+    </volist>
+    <section class="record-message"><p class="fon-13"></p></section>
+</article>
+<nav>
+    <ul class="font-10">
+        <li>
+            <a href="{:U('Index/index')}">
+                <div class="nav-pic bottom-left"></div>
+                <h3 >猜大小</h3>
+            </a>
+        </li>
+        <li>
+            <a href="{:U('Partake/index')}">
+                <div class="nav-pic bottom-center"></div>
+                <h3>分享赚钱</h3>
+            </a>
+        </li>
+        <li>
+            <a href="{:U('Personal/index')}">
+                <div class="nav-pic bottom-right"></div>
+                <h3>个人中心</h3>
+            </a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

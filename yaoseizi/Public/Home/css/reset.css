@@ -1,0 +1,234 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section , hgroup{
+    display: block;
+}
+
+html {
+    font-family: Microsoft YaHei, Helvetica Neue, Helvetica, Roboto, STHeiTi, Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 100%;
+    line-height: 1.5;
+    box-sizing: inherit;
+}
+
+body {
+    /*font-size: 16px;*/
+    color: #333;
+    background: #FFF;
+}
+details {
+    display: none;
+}
+
+ul, ol {
+    list-style: none outside none;
+}
+h1, h2, h3, strong {
+    font-weight: normal;
+}
+
+img {
+    vertical-align: middle;
+    border: 0 none;
+    -ms-interpolation-mode: bicubic;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.border_box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.break {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,canvas,video {
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+input,select,textarea{
+    font-size:100%;
+}
+
+/* 去掉各Table cell 的边距并让其边重合 */
+table{
+    border-collapse:collapse;border-spacing:0;
+}
+
+/* IE bug fixed: th 不继承 text-align*/
+th{
+    text-align:inherit;
+}
+
+/* 去除默认边框 */
+fieldset,img{
+    border:0;
+}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe{
+    display:block;
+}
+
+/* 去掉 firefox 下此元素的边框 */
+abbr,acronym{
+    border:0;font-variant:normal;
+}
+
+/* 一致的 del 样式 */
+del {
+    text-decoration:line-through;
+}
+
+address,caption,cite,code,dfn,em,th,var {
+    font-style:normal;
+    font-weight:500;
+}
+
+/* 去掉列表前的标识, li 会继承 */
+ol,ul {
+    list-style:none;
+}
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,th {
+    text-align:left;
+}
+
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+
+q:before,q:after {
+    content:'';
+}
+
+/* 统一上标和下标 */
+sub, sup {
+    font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
+}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+
+a{
+    color: #333;
+}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins,a {
+    text-decoration:none;
+}
+
+/* 清理浮动 */
+.fn-clear:before , .fn-clear:after {
+    content:" ";
+    display:table;
+}
+.fn-clear:after{
+    clear:both;
+}
+.fn-clear {
+    zoom:1; /* for IE6 IE7 */
+}
+
+/* 隐藏, 通常用来与 JS 配合 */
+body .fn-hide {
+    display:none;
+}
+
+/* 设置内联, 减少浮动带来的bug */
+.fn-left , .fn-right {
+    display:inline;
+}
+.fn-left {
+    float:left;
+}
+.fn-right {
+    float:right;
+}
+
+/*消除iphone默认样式*/
+input[type="text"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    -webkit-appearance: none;
+}
+
+/*消除黄色背景*/
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0 1000px #fff inset;
+}
+
+/*消除点击内部阴影*/
+a,img,button,label,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+
+/*字体*/
+[data-dpr ="1"] .font-13{
+    font-size: 13px;
+}
+[data-dpr ="2"] .font-13{
+    font-size: 26px;
+}
+[data-dpr ="3"] .font-13{
+    font-size: 39px;
+}
+
+[data-dpr="1"] .font-16{
+    font-size: 16px;
+}
+[data-dpr="2"] .font-16{
+    font-size: 32px;
+}
+[data-dpr="3"] .font-16{
+    font-size: 48px;
+}
+
+[data-dpr="1"] .font-10{
+    font-size: 10px;
+}
+[data-dpr="2"] .font-10{
+    font-size: 20px;
+}
+[data-dpr="3"] .font-10{
+    font-size: 30px;
+}
+
+[data-dpr="1"] .font-30{
+    font-size: 30px;
+}
+[data-dpr="2"] .font-20{
+    font-size: 60px;
+}
+[data-dpr="3"] .font-20{
+    font-size: 90px;
+}

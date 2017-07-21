@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no" />
+    <title>个人二维码</title>
+    <script src="__PUBLIC__/Home/js/jquery-2.1.4.js"></script>
+    <script src="__PUBLIC__/Home/js/flexiblem.js"></script>
+    <script src="__PUBLIC__/Home/js/personal.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/personal.css">
+</head>
+<body>
+    <article>
+        <section style="position: relative;"><p style="position: absolute;top:60%;left: 44%;font-size: 30px;font-weight: bold;color:#333">ID:{$member.id}</p>
+            <img class="code-pic" src="{$member.qr_code}" alt="">
+        </section>
+    </article>
+    <nav>
+        <ul class="font-10">
+            <li>
+                <a href="{:U('Index/index')}">
+                    <div class="nav-pic bottom-left"></div>
+                    <h3 >猜大小</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Partake/index')}">
+                    <div class="nav-pic code-bottom-center bottom-center"></div>
+                    <h3>分享赚钱</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Personal/index')}">
+                    <div class="nav-pic code-bottom-right bottom-right"></div>
+                    <h3>个人中心</h3>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

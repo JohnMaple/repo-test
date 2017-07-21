@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线客服</title>
+    <script src="__PUBLIC__/Home/js/jquery-2.1.4.js"></script>
+    <script src="__PUBLIC__/Home/js/flexiblem.js"></script>
+    <script src="__PUBLIC__/Home/js/personal.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/personal.css">
+</head>
+<body>
+    <article class="custom-service-bg">
+        <section class="custom-service">
+            <p class="fon-10">在线客服为您竭诚服务！</p>
+            <h3 class="font-13">欢迎来撩，客服为您解答一切问题</h3>
+        </section>
+		<img src="__PUBLIC__/Home/images/erweima.jpg" style="width:100%;">
+    </article>
+<script type='text/javascript'>
+    (function(m, ei, q, i, a, j, s) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = '//static.meiqia.com/dist/meiqia.js?_=t';
+        s.parentNode.insertBefore(j, s);
+    })(window, document, 'script', '_MEIQIA');
+    _MEIQIA('entId', '我是企业ID');
+
+    // 在这里开启手动模式（必须紧跟美洽的嵌入代码）
+    _MEIQIA('manualInit');
+</script>
+<!-- 这是你自己的 JavaScript 代码 -->
+<script>
+    // 你可以自己的代码中选择合适的时机来调用手动初始化
+    _MEIQIA('init');
+</script>
+
+    <nav>
+        <ul class="font-10">
+            <li>
+                <a href="{:U('Index/index')}">
+                    <div class="nav-pic bottom-left"></div>
+                    <h3 >猜大小</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Partake/index')}">
+                    <div class="nav-pic bottom-center"></div>
+                    <h3>分享赚钱</h3>
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Personal/index')}">
+                    <div class="nav-pic bottom-right"></div>
+                    <h3>个人中心</h3>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
